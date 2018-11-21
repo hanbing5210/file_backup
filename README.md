@@ -4,34 +4,23 @@
 使用Python写的一个文件备份小工具
 
 #### 软件架构
-软件架构说明
+python 3.7 以及其内置模块
+win可执行程序使用pyinstaller进行打包
 
 
 #### 安装教程
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. 仅需要安装python即可
+2. win有已打包好的可执行程序
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. linux,mac,win(cmd或者powershell):执行`python filebak.py`然后按照提示进行即可
+2. win可执行程序:双击`filebak.exe`按照相应提示操作即可
 
+#### 目前的缺陷
+1. 由于当前时使用内存进行文件中转,因此系统的剩余内存需要大于文件大小500M,否则或出现不可预估的错误.(小于500m在理论上也可以但是会影响系统性能)
+2. 目前版本进可执行一次备份win可执行程序在备份完成后会直接退出.
 #### 参与贡献
 
-1. Fork 本项目
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
-
-
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+欢迎广大编程爱好者参与该项目的开发和优化
